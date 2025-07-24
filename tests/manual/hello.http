@@ -1,0 +1,28 @@
+
+@baseUrl = http://localhost:3333
+
+### Hello World Endpoint
+# @name hello
+GET {{baseUrl}}/hello HTTP/2.0
+Accept: application/json
+
+### Health Endpoint
+# @name health
+GET {{baseUrl}}/health HTTP/2.0
+Accept: application/json
+
+
+### Lakes Endpoint
+# @name lakes_list
+GET {{baseUrl}}/lakes HTTP/2.0
+Accept: application/json
+
+### Lakes Endpoint
+# @name lake_create
+POST {{baseUrl}}/lakes HTTP/2.0
+Accept: application/json
+
+{
+    "nome": "Lake Prime",
+    "price": 1000
+}

@@ -1,3 +1,3 @@
-module github.com/fssou/learn-lang-go
+module github.com/fssou/learn-go
 
-go 1.21
+go 1.24
